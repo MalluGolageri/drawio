@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-10-12T15:14:05.976Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="8S9EVZJdGlvK0IEiKFno" version="15.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-12T15:14:57.723Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="hWUfpdy0bHyNJtXMvUTH" version="15.5.1" type="github">
   <diagram id="3t47HKa8IBEHb_ekaZYD" name="Page-1">
-    <mxGraphModel dx="1287" dy="511" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2137" dy="511" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -132,6 +132,12 @@
         </mxCell>
         <mxCell id="HBRi0KXys4XlXAcfF2yt-48" value="Approach 1: Mapping framework inside Rule Engine&lt;br&gt;Approach2: Separate microservice for the mapping (Not Recommended)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="310" y="1110" width="470" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HBRi0KXys4XlXAcfF2yt-49" value="" style="endArrow=classic;html=1;rounded=0;fontSize=14;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-40" y="220" as="sourcePoint" />
+            <mxPoint x="-40" y="330" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
