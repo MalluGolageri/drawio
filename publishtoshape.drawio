@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-12T15:31:39.861Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="0L5GHxFH52wphX4Y62XJ" version="15.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-12T15:39:54.624Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="1pLHLboc1o2d6OqDSdzI" version="15.5.1" type="github">
   <diagram id="3t47HKa8IBEHb_ekaZYD" name="Page-1">
     <mxGraphModel dx="2137" dy="511" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -71,7 +71,7 @@
         <mxCell id="HBRi0KXys4XlXAcfF2yt-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.577;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="HBRi0KXys4XlXAcfF2yt-24" target="HBRi0KXys4XlXAcfF2yt-23">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="HBRi0KXys4XlXAcfF2yt-24" value="Consumer1&lt;br&gt;Shape" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="HBRi0KXys4XlXAcfF2yt-24" value="Consumer2&lt;br&gt;SHAPE" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1200" y="420" width="130" height="90" as="geometry" />
         </mxCell>
         <mxCell id="HBRi0KXys4XlXAcfF2yt-30" value="&lt;pre&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;&lt;font&gt;processApproveOrDelete&lt;/font&gt;&lt;font&gt;(rule)&lt;/font&gt;&lt;/font&gt;&lt;/pre&gt;&lt;pre&gt;&lt;font size=&quot;3&quot;&gt;        .thenApply(updateDB(rule))&lt;/font&gt;&lt;/pre&gt;&lt;pre&gt;&lt;font size=&quot;3&quot;&gt;        .thenApply(updateCache(rule))&lt;/font&gt;&lt;/pre&gt;&lt;pre&gt;&lt;font size=&quot;3&quot;&gt;&lt;b&gt;&lt;i&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;.thenApply(mapConsumer(consumerId))&lt;br&gt;&lt;/i&gt;&lt;/b&gt;&lt;/font&gt;&lt;/pre&gt;&lt;pre&gt;&lt;font size=&quot;3&quot;&gt;        .thenApply(publish(data, topic))  // Fire &amp;amp; Forget Call? Store?&lt;/font&gt;&lt;/pre&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -138,6 +138,18 @@
             <mxPoint x="-40" y="220" as="sourcePoint" />
             <mxPoint x="-40" y="330" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="HBRi0KXys4XlXAcfF2yt-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.692;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=14;" edge="1" parent="1" source="HBRi0KXys4XlXAcfF2yt-50" target="HBRi0KXys4XlXAcfF2yt-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HBRi0KXys4XlXAcfF2yt-50" value="Consumer3&lt;br&gt;Shape" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="540" width="130" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="HBRi0KXys4XlXAcfF2yt-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="HBRi0KXys4XlXAcfF2yt-51" target="HBRi0KXys4XlXAcfF2yt-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HBRi0KXys4XlXAcfF2yt-51" value="Consumer1&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="290" width="130" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
